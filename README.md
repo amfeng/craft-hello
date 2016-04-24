@@ -1,4 +1,4 @@
-# craft-hello
+# crafty-hello
 
 ![](https://s3.amazonaws.com/f.cl.ly/items/2b351S442C27292w2F23/Screen%20Shot%202016-04-23%20at%2011.57.46%20PM.png?v=fc65aa23)
 
