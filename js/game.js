@@ -32,15 +32,14 @@ window.launchGame = function(gameElement) {
   });
 
   // Init the Crafty game
-  Crafty.init(512, 512, gameElement);
+  Crafty.init(600, 400, gameElement);
   Crafty.pixelart(true);
 
   // Create the starting map scene
   Crafty.scene("map", function() {
     // Create the map
-    for (var i = 0; i < 16; i++) {
-      for (var j = 0; j < 16; j++) {
-        console.log(i, j);
+    for (var i = 0; i < 19; i++) {
+      for (var j = 0; j < 13; j++) {
         // Add grass
         Crafty.e("2D, DOM")
           .attr({x: i * 32, y: j * 32, z: 0})
